@@ -1,1 +1,10 @@
 # MID-SEM-EXAM-WEB
+
+B
+C
+B
+B
+B
+D
+A
+C
