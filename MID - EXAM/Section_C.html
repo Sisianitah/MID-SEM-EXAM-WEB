@@ -1,0 +1,49 @@
+NO.1
+
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+
+console.log(reverseString("hello")); 
+
+
+
+
+
+
+NO.2 
+
+function sumEvenNumbers(arr) {
+    return arr.filter(num => num % 2 === 0).reduce((sum, num) => sum + num, 0);
+}
+
+console.log(sumEvenNumbers([1, 2, 3, 4, 5, 6])); // 12
+
+
+
+
+NO.3 
+
+function checkNumbers(num1, num2) {
+    return num1 === num2 ? num1 * num2 : num1 + num2;
+}
+
+console.log(checkNumbers(3, 3)); // 9 (3 * 3)
+console.log(checkNumbers(3, 5)); // 8 (3 + 5)
+
+
+NO.4 
+
+function isPalindrome(word) {
+    let reversed = word.split('').reverse().join('');
+    return word === reversed;
+}
+
+console.log(isPalindrome("racecar")); // This will be true
+console.log(isPalindrome("hello")); // It will be false
+
+
+
+
+
+
